@@ -1,5 +1,10 @@
 {
     "translate": "Перевод",
     "lang": "English",
-    "notFoundPageTitle": "Страница не найдена"
+    "not found page title": "Страница не найдена",
+    "error occured": "Произошла ошибка",
+    "reload page": "Перезагрузить страницу",
+    "throw error": "Выбросить ошибку",
+    "main link": "Главная",
+    "about link": "О нас"
 }

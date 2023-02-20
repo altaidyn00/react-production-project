@@ -1,5 +1,10 @@
 {
     "translate": "Translate",
     "lang": "Русский",
-    "notFoundPageTitle": "Page not found"
+    "not found page title": "Page not found",
+    "error occured": "Error occured",
+    "reload page": "Reload page",
+    "throw error": "Throw error",
+    "main link": "Main",
+    "about link": "About"
 }
