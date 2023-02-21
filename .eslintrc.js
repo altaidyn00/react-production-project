@@ -38,7 +38,7 @@ module.exports = {
     '@typescript-eslint/no-floating-promises': 'warn',
     'no-unused-vars': 'warn',
     '@typescript-eslint/naming-convention': 'off',
-    'i18next/no-literal-string': ['error', { markupOnly: true }]
+    'i18next/no-literal-string': ['error', { markupOnly: true, ignoreAttributes: ['data-testid', 'to'] }]
   },
   globals: {
     '__IS_DEV__': true,
