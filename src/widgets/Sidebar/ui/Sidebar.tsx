@@ -20,7 +20,7 @@ export const Sidebar: FC<SidebarProps> = (props) => {
 
     return (
         <div data-testid="sidebar" className={classNames(cls.sidebar, { [cls.collapsed]: collapsed }, [className])}>
-            <Button data-testid="sidebar-toggle" onClick={onToggle}>toggle</Button>
+            {/* <Button data-testid="sidebar-toggle" onClick={onToggle}>toggle</Button> */}
             <div className={classNames(cls.switchers)}>
                 <ThemeSwitcher />
                 <LangSwitcher className={cls.lang} />
