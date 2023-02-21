@@ -6,5 +6,6 @@
     "reload page": "Перезагрузить страницу",
     "throw error": "Выбросить ошибку",
     "main link": "Главная",
-    "about link": "О нас"
+    "about link": "О нас",
+    "toggle": "Переключить"
 }

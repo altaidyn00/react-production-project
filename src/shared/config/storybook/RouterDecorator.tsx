@@ -1,5 +1,5 @@
-import { Story } from '@storybook/react';
-import { BrowserRouter } from 'react-router-dom';
+import { type Story } from '@storybook/react'
+import { BrowserRouter } from 'react-router-dom'
 
 export const RouterDecorator = (story: () => Story) => {
     return (
@@ -7,4 +7,4 @@ export const RouterDecorator = (story: () => Story) => {
             {story()}
         </BrowserRouter>
     )
-};
+}
