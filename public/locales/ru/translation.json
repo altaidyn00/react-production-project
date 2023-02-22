@@ -8,5 +8,6 @@
     "throw error": "Выбросить ошибку",
     "main link": "Главная",
     "about link": "О нас",
-    "toggle": "Переключить"
+    "toggle": "Переключить",
+    "signin": "Войти"
 }
