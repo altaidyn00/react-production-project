@@ -1,7 +1,7 @@
 import { type ComponentStory, type ComponentMeta } from '@storybook/react'
 import { Theme } from 'app/providers/ThemeProvider'
+import { Button, ButtonSize, ThemeButton } from './Button'
 import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator'
-import { Button, ThemeButton } from './Button'
 
 export default {
     title: 'shared/Button',
@@ -15,37 +15,73 @@ const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />
 
 export const Primary = Template.bind({})
 Primary.args = {
-    children: 'button'
+    children: 'Text'
 }
 
 export const Clear = Template.bind({})
 Clear.args = {
-    children: 'button',
+    children: 'Text',
     theme: ThemeButton.CLEAR
 }
 
 export const Outline = Template.bind({})
 Outline.args = {
-    children: 'button',
+    children: 'Text',
     theme: ThemeButton.OUTLINE
 }
 
-export const PrimaryDark = Template.bind({})
-PrimaryDark.args = {
-    children: 'button'
+export const OutlineSizeL = Template.bind({})
+OutlineSizeL.args = {
+    children: 'Text',
+    theme: ThemeButton.OUTLINE,
+    size: ButtonSize.L
 }
-PrimaryDark.decorators = [ThemeDecorator(Theme.DARK)]
 
-export const ClearDark = Template.bind({})
-ClearDark.args = {
-    children: 'button',
-    theme: ThemeButton.CLEAR
+export const OutlineSizeXl = Template.bind({})
+OutlineSizeXl.args = {
+    children: 'Text',
+    theme: ThemeButton.OUTLINE,
+    size: ButtonSize.XL
 }
-ClearDark.decorators = [ThemeDecorator(Theme.DARK)]
 
 export const OutlineDark = Template.bind({})
 OutlineDark.args = {
-    children: 'button',
+    children: 'Text',
     theme: ThemeButton.OUTLINE
 }
 OutlineDark.decorators = [ThemeDecorator(Theme.DARK)]
+
+export const BackgroundTheme = Template.bind({})
+BackgroundTheme.args = {
+    children: 'Text',
+    theme: ThemeButton.BACKGROUND
+}
+
+export const BackgroundInverted = Template.bind({})
+BackgroundInverted.args = {
+    children: 'Text',
+    theme: ThemeButton.BACKGROUND_INVERTED
+}
+
+export const Square = Template.bind({})
+Square.args = {
+    children: '>',
+    theme: ThemeButton.BACKGROUND_INVERTED,
+    square: true
+}
+
+export const SquareSizeL = Template.bind({})
+SquareSizeL.args = {
+    children: '>',
+    theme: ThemeButton.BACKGROUND_INVERTED,
+    square: true,
+    size: ButtonSize.L
+}
+
+export const SquareSizeXl = Template.bind({})
+SquareSizeXl.args = {
+    children: '>',
+    theme: ThemeButton.BACKGROUND_INVERTED,
+    square: true,
+    size: ButtonSize.XL
+}
