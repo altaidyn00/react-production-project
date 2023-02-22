@@ -9,5 +9,7 @@
     "main link": "Главная",
     "about link": "О нас",
     "toggle": "Переключить",
-    "signin": "Войти"
+    "signin": "Войти",
+    "increment": "Увеличить",
+    "decrement": "Уменьшить"
 }

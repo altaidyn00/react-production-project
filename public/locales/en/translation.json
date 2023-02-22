@@ -9,5 +9,7 @@
     "main link": "Main",
     "about link": "About",
     "toggle": "Toggle",
-    "signin": "Sign in"
+    "signin": "Sign in",
+    "increment": "Increment",
+    "decrement": "Decrement"
 }
