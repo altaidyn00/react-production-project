@@ -37,6 +37,7 @@ module.exports = {
         'react/no-unescaped-entities': 'off',
         '@typescript-eslint/no-floating-promises': 'warn',
         '@typescript-eslint/naming-convention': 'off',
+        '@typescript-eslint/prefer-includes': 'off',
         'i18next/no-literal-string': [
             'error',
             {
