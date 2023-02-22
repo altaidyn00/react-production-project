@@ -15,7 +15,8 @@ export function buildCssLoader (isDev: boolean) {
                             : '[hash:base64:8]'
                     }
                 }
-            }
+            },
+            'sass-loader'
         ]
     }
 }
