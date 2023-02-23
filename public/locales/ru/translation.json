@@ -11,5 +11,7 @@
     "toggle": "Переключить",
     "signin": "Войти",
     "increment": "Увеличить",
-    "decrement": "Уменьшить"
+    "decrement": "Уменьшить",
+    "username placeholder": "Введите username",
+    "password placeholder": "Введите пароль"
 }

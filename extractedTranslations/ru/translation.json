@@ -8,10 +8,14 @@
   "main link": "main link",
   "main page": "main page",
   "not found page title": "not found page title",
+  "password": "password",
+  "password placeholder": "password placeholder",
   "reload page": "reload page",
   "signin": "signin",
   "throw error": "throw error",
   "toggle": "toggle",
+  "username": "username",
+  "username placeholder": "username placeholder",
   "Главная": "Главная",
   "О сайте": "О сайте"
 }

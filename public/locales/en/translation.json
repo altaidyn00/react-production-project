@@ -11,5 +11,7 @@
     "toggle": "Toggle",
     "signin": "Sign in",
     "increment": "Increment",
-    "decrement": "Decrement"
+    "decrement": "Decrement",
+    "username placeholder": "Enter username",
+    "password placeholder": "Enter password"
 }
