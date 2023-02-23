@@ -1,10 +1,13 @@
 {
   "about link": "about link",
   "about page": "about page",
+  "authorization form": "authorization form",
   "decrement": "decrement",
   "error occured": "error occured",
   "increment": "increment",
   "lang": "lang",
+  "login error message": "",
+  "logout": "logout",
   "main link": "main link",
   "main page": "main page",
   "not found page title": "not found page title",

@@ -12,6 +12,9 @@
     "signin": "Войти",
     "increment": "Увеличить",
     "decrement": "Уменьшить",
-    "username placeholder": "Введите username",
-    "password placeholder": "Введите пароль"
+    "username placeholder": "Введите логин",
+    "password placeholder": "Введите пароль",
+    "authorization form": "Форма авторизации",
+    "login error message": "Неверный логин или пароль",
+    "logout": "Выйти"
 }

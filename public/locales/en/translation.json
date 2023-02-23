@@ -12,6 +12,9 @@
     "signin": "Sign in",
     "increment": "Increment",
     "decrement": "Decrement",
-    "username placeholder": "Enter username",
-    "password placeholder": "Enter password"
+    "username placeholder": "Enter login",
+    "password placeholder": "Enter password",
+    "authorization form": "Authorization Form",
+    "login error message": "Login or password is incorrect",
+    "logout": "Logout"
 }
